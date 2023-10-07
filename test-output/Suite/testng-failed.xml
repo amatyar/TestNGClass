@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="admin123"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="username" value="admin"/>
+  <test thread-count="5" name="Testb(failed)">
+    <parameter name="password" value="admin123B"/>
+    <parameter name="browser" value="chromeB"/>
+    <parameter name="username" value="adminB"/>
+    <classes>
+      <class name="TestNG1.Days8a">
+        <methods>
+          <include name="TestcaseFour"/>
+        </methods>
+      </class> <!-- TestNG1.Days8a -->
+    </classes>
+  </test> <!-- Testb(failed) -->
+</suite> <!-- Failed suite [Suite] -->
