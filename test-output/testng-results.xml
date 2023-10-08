@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-07T00:08:22 EDT" name="Default suite" finished-at="2023-10-07T00:08:22 EDT" duration-ms="14">
+  <suite started-at="2023-10-07T22:27:14 EDT" name="Suite" finished-at="2023-10-07T22:27:14 EDT" duration-ms="91">
     <groups>
+      <group name="regression">
+        <method signature="day12.testCase2()[pri:0, instance:October.day12@72967906]" name="testCase2" class="October.day12"/>
+        <method signature="day12a.testCase5()[pri:0, instance:October.day12a@42a48628]" name="testCase5" class="October.day12a"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="day12.testCase1()[pri:0, instance:October.day12@72967906]" name="testCase1" class="October.day12"/>
+        <method signature="day12.testCase2()[pri:0, instance:October.day12@72967906]" name="testCase2" class="October.day12"/>
+        <method signature="day12.testCase3()[pri:0, instance:October.day12@72967906]" name="testCase3" class="October.day12"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-10-07T00:08:22 EDT" name="Default test" finished-at="2023-10-07T00:08:22 EDT" duration-ms="14">
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    <test started-at="2023-10-07T22:27:14 EDT" name="Test" finished-at="2023-10-07T22:27:14 EDT" duration-ms="91">
+      <class name="October.day12">
+        <test-method signature="testCase1()[pri:0, instance:October.day12@72967906]" started-at="2023-10-07T22:27:14 EDT" name="testCase1" finished-at="2023-10-07T22:27:14 EDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase2()[pri:0, instance:October.day12@72967906]" started-at="2023-10-07T22:27:14 EDT" name="testCase2" finished-at="2023-10-07T22:27:14 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase3()[pri:0, instance:October.day12@72967906]" started-at="2023-10-07T22:27:14 EDT" name="testCase3" finished-at="2023-10-07T22:27:14 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+      </class> <!-- October.day12 -->
+      <class name="October.day12a">
+        <test-method signature="testCase5()[pri:0, instance:October.day12a@42a48628]" started-at="2023-10-07T22:27:14 EDT" name="testCase5" finished-at="2023-10-07T22:27:14 EDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase5 -->
+      </class> <!-- October.day12a -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
