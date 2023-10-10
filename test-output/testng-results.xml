@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-09T22:26:09 EDT" name="Default suite" finished-at="2023-10-09T22:26:15 EDT" duration-ms="5948">
+  <suite started-at="2023-10-10T18:55:51 EDT" name="Default suite" finished-at="2023-10-10T18:56:07 EDT" duration-ms="15455">
     <groups>
     </groups>
-    <test started-at="2023-10-09T22:26:09 EDT" name="Default test" finished-at="2023-10-09T22:26:15 EDT" duration-ms="5948">
-      <class name="October.Monday">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:October.Monday@3e694b3f]" started-at="2023-10-09T22:26:09 EDT" name="launchBrowser" finished-at="2023-10-09T22:26:13 EDT" duration-ms="3612" status="PASS">
+    <test started-at="2023-10-10T18:55:51 EDT" name="Default test" finished-at="2023-10-10T18:56:07 EDT" duration-ms="15455">
+      <class name="October.BrokenLink01">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:October.BrokenLink01@1bb5a082]" started-at="2023-10-10T18:55:51 EDT" name="launchBrowser" finished-at="2023-10-10T18:55:58 EDT" duration-ms="6857" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="TestcaseOne()[pri:0, instance:October.Monday@3e694b3f]" started-at="2023-10-09T22:26:13 EDT" name="TestcaseOne" finished-at="2023-10-09T22:26:15 EDT" duration-ms="2264" status="PASS">
+        <test-method signature="testcase()[pri:0, instance:October.BrokenLink01@1bb5a082]" started-at="2023-10-10T18:55:58 EDT" name="testcase" finished-at="2023-10-10T18:56:07 EDT" duration-ms="8252" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestcaseOne -->
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:October.Monday@3e694b3f]" started-at="2023-10-09T22:26:15 EDT" name="terminateBrowser" finished-at="2023-10-09T22:26:15 EDT" duration-ms="0" status="PASS">
+        </test-method> <!-- testcase -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:October.BrokenLink01@1bb5a082]" started-at="2023-10-10T18:56:07 EDT" name="terminateBrowser" finished-at="2023-10-10T18:56:07 EDT" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminateBrowser -->
-      </class> <!-- October.Monday -->
+      </class> <!-- October.BrokenLink01 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
