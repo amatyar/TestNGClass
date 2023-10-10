@@ -10,8 +10,7 @@
   </run>
   </groups>
     <classes>
-      <class name="October.day12"/>
-      <class name="October.day12a"/>
+      <class name="Exam.ExamFive"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
